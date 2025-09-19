@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserve a Book - Vallejo Public Library</title>
+</head>
+<body>
+  <header>
+    <h1>Vallejo Public Library</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="library-card.html">Get a Library Card</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Reserve a Book</h2>
+    <section>
+      <p>You are reserving: <strong>The Great Gatsby</strong> by F. Scott Fitzgerald</p>
+      <p><em>2 copies currently available</em></p>
+    </section>
+
+    <section>
+      <form>
+        <fieldset>
+          <legend>Your Information</legend>
+
+          <label for="cardnumber">Library Card Number:</label><br>
+          <input type="text" id="cardnumber" name="cardnumber" required><br><br>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone"><br><br>
+        </fieldset>
+
+        <button type="submit">Confirm Reservation</button>
+      </form>
+    </section>
+
+    <section>
+      <p><strong>Note:</strong> Reserved books must be picked up within <time datetime="P3D">3 days</time>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>123 Main St, Vallejo, CA | <a href="mailto:info@vallejo-library.org">info@vallejo-library.org</a></p>
+  </footer>
+</body>
+</html>
